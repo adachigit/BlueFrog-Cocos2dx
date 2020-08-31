@@ -1,0 +1,45 @@
+
+class UIPageViewEx : public UIListViewEx
+{
+    
+public:
+    /**
+     * Default constructor
+     */
+    UIPageViewEx();
+    
+    /**
+     * Default destructor
+     */
+    virtual ~UIPageViewEx();
+    
+    /**
+     * Allocates and initializes.
+     */
+    static UIPageViewEx* create();
+    
+	void setPageModel(UILayout* model);
+	void setAccelaration(float accelaration);
+	void setBounceSpeed(const float speed);
+	void setOneByOne(bool isOneByOne);
+	void setOverLengthRatio(const float ratio);
+	void jumpToPage(int index);
+	void scrollToPage(int index, float speed);
+	int getCurPageIndex();
+	UILayout* getCurPage();
+	
+    /**
+     * Push back a page to pageview.
+     *
+     * @param page    page to be added to pageview.
+     */
+    UILayout* pushBackModelPage();
+    
+	void refreshView();
+	
+    /**
+     * Returns the "class name" of widget.
+     */
+    virtual const char* getDescription() const;
+	CCArray* getChildren();
+};

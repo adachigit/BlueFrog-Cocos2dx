@@ -1,0 +1,62 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: ATI Technologies Inc.
+	gl.renderer: AMD Radeon HD 8850M
+	gl.version: 4.2.12224 Compatibility Profile Context 12.105.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 32
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\bluefrog\zombie\quick-cocos2dx\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 60
+------------------------------------------------
+LOAD LUA FILE: D:/bluefrog/zombie/quick-cocos2dx/samples/coinflip/scripts/main.lua
+------------------------------------------------
+[0.2767] [INFO] 
+[0.2771] [INFO] # DEBUG                        = 1
+[0.2776] [INFO] #
+[0.2783] [INFO] # device.platform              = windows
+[0.2788] [INFO] # device.model                 = unknown
+[0.2792] [INFO] # device.language              = cn
+[0.2797] [INFO] # device.writablePath          = D:\bluefrog\zombie\quick-cocos2dx\samples\coinflip\
+[0.2805] [INFO] # device.cachePath             = D:\bluefrog\zombie\quick-cocos2dx\samples\coinflip\
+[0.2815] [INFO] # device.directorySeparator    = \
+[0.2819] [INFO] # device.pathSeparator         = ;
+[0.2823] [INFO] #
+[0.2844] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[0.2849] [INFO] # CONFIG_SCREEN_WIDTH          = 640.00
+[0.2855] [INFO] # CONFIG_SCREEN_HEIGHT         = 384.00
+[0.2864] [INFO] # display.widthInPixels        = 800.00
+[0.2870] [INFO] # display.heightInPixels       = 480.00
+[0.2877] [INFO] # display.contentScaleFactor   = 1.25
+[0.2883] [INFO] # display.width                = 640.00
+[0.2890] [INFO] # display.height               = 384.00
+[0.2896] [INFO] # display.cx                   = 320.00
+[0.2902] [INFO] # display.cy                   = 192.00
+[0.2909] [INFO] # display.left                 = 0.00
+[0.2916] [INFO] # display.right                = 640.00
+[0.2922] [INFO] # display.top                  = 384.00
+[0.2929] [INFO] # display.bottom               = 0.00
+[0.2935] [INFO] # display.c_left               = -320.00
+[0.2940] [INFO] # display.c_right              = 320.00
+[0.2947] [INFO] # display.c_top                = 192.00
+[0.2954] [INFO] # display.c_bottom             = -192.00
+[0.2959] [INFO] #
+[1.1777] [INFO] Scene "MenuScene:onEnter()"
+[4.3022] [INFO] Scene "MoreGamesScene:onEnter()"
+[4.9277] [INFO] Scene "MenuScene:onExit()"
+[6.4547] [INFO] Scene "MenuScene:onEnter()"
+[7.0880] [INFO] Scene "MoreGamesScene:onExit()"
+cocos2d: padding: 0,0,0,0
+[8.1462] [INFO] Scene "ChooseLevelScene:onEnter()"
+[8.7643] [INFO] Scene "MenuScene:onExit()"
+[34.9244] [INFO] Scene "MenuScene:onEnter()"
+[35.5564] [INFO] Scene "ChooseLevelScene:onExit()"
+[36.7745] [INFO] Scene "MenuScene:onExit()"

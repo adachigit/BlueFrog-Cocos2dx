@@ -1,0 +1,59 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: ATI Technologies Inc.
+	gl.renderer: AMD Radeon HD 8850M
+	gl.version: 4.2.12224 Compatibility Profile Context 12.105.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 32
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\bluefrog\zombie\quick-cocos2dx\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 60
+------------------------------------------------
+LOAD LUA FILE: D:/bluefrog/zombie/quick-cocos2dx/samples/ui/scripts/main.lua
+------------------------------------------------
+[0.2453] [INFO] 
+[0.2457] [INFO] # DEBUG                        = 1
+[0.2460] [INFO] #
+[0.2468] [INFO] # device.platform              = windows
+[0.2474] [INFO] # device.model                 = unknown
+[0.2479] [INFO] # device.language              = cn
+[0.2484] [INFO] # device.writablePath          = D:\bluefrog\zombie\quick-cocos2dx\samples\ui\
+[0.2492] [INFO] # device.cachePath             = D:\bluefrog\zombie\quick-cocos2dx\samples\ui\
+[0.2503] [INFO] # device.directorySeparator    = \
+[0.2508] [INFO] # device.pathSeparator         = ;
+[0.2512] [INFO] #
+[0.2534] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[0.2540] [INFO] # CONFIG_SCREEN_WIDTH          = 1066.67
+[0.2545] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.2551] [INFO] # display.widthInPixels        = 800.00
+[0.2557] [INFO] # display.heightInPixels       = 480.00
+[0.2564] [INFO] # display.contentScaleFactor   = 0.75
+[0.2568] [INFO] # display.width                = 1066.67
+[0.2571] [INFO] # display.height               = 640.00
+[0.2578] [INFO] # display.cx                   = 533.33
+[0.2583] [INFO] # display.cy                   = 320.00
+[0.2588] [INFO] # display.left                 = 0.00
+[0.2594] [INFO] # display.right                = 1066.67
+[0.2598] [INFO] # display.top                  = 640.00
+[0.2603] [INFO] # display.bottom               = 0.00
+[0.2609] [INFO] # display.c_left               = -533.33
+[0.2612] [INFO] # display.c_right              = 533.33
+[0.2617] [INFO] # display.c_top                = 320.00
+[0.2623] [INFO] # display.c_bottom             = -320.00
+[0.2627] [INFO] #
+[0.3161] [INFO] Scene "TestUIImageScene:onEnter()"
+[3.7437] Option 4 selected, Option 0 unselected
+[3.7794] [INFO] Scene "TestUIImageScene:onExit()"
+[3.7934] [INFO] Scene "TestUIButtonScene:onEnter()"
+[8.7955] [INFO] Scene "TestUIButtonScene:onExit()"
+[8.7993] [INFO] Scene "TestUISliderScene:onEnter()"
+[11.4626] [INFO] Scene "TestUISliderScene:onExit()"
+[11.4666] [INFO] Scene "TestUIImageScene:onEnter()"

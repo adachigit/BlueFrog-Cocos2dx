@@ -1,0 +1,52 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: ATI Technologies Inc.
+	gl.renderer: AMD Radeon HD 8850M
+	gl.version: 4.2.12224 Compatibility Profile Context 12.105.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 32
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\bluefrog\zombie\quick-cocos2dx\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 60
+------------------------------------------------
+LOAD LUA FILE: D:/bluefrog/zombie/quick-cocos2dx/samples/ccs_gui/scripts/main.lua
+------------------------------------------------
+[0.2704] [INFO] 
+[0.2706] [INFO] # DEBUG                        = 1
+[0.2708] [INFO] #
+[0.2711] [INFO] # device.platform              = windows
+[0.2713] [INFO] # device.model                 = unknown
+[0.2714] [INFO] # device.language              = cn
+[0.2716] [INFO] # device.writablePath          = D:\bluefrog\zombie\quick-cocos2dx\samples\ccs_gui\
+[0.2719] [INFO] # device.cachePath             = D:\bluefrog\zombie\quick-cocos2dx\samples\ccs_gui\
+[0.2721] [INFO] # device.directorySeparator    = \
+[0.2723] [INFO] # device.pathSeparator         = ;
+[0.2725] [INFO] #
+[0.2729] [INFO] # CONFIG_SCREEN_AUTOSCALE      = nil
+[0.2734] [INFO] # CONFIG_SCREEN_WIDTH          = 800.00
+[0.2749] [INFO] # CONFIG_SCREEN_HEIGHT         = 480.00
+[0.2757] [INFO] # display.widthInPixels        = 800.00
+[0.2770] [INFO] # display.heightInPixels       = 480.00
+[0.2779] [INFO] # display.contentScaleFactor   = 1.00
+[0.2791] [INFO] # display.width                = 800.00
+[0.2802] [INFO] # display.height               = 480.00
+[0.2813] [INFO] # display.cx                   = 400.00
+[0.2825] [INFO] # display.cy                   = 240.00
+[0.2832] [INFO] # display.left                 = 0.00
+[0.2844] [INFO] # display.right                = 800.00
+[0.2859] [INFO] # display.top                  = 480.00
+[0.2870] [INFO] # display.bottom               = 0.00
+[0.2885] [INFO] # display.c_left               = -400.00
+[0.2893] [INFO] # display.c_right              = 400.00
+[0.2906] [INFO] # display.c_top                = 240.00
+[0.2915] [INFO] # display.c_bottom             = -240.00
+[0.2926] [INFO] #
+cocos2d: padding: 0,0,0,0

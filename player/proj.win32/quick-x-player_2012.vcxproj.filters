@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{da35f943-2f62-4dbf-bd58-91a522b39592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{54d36d2c-b373-4c65-962b-76ff1fedc28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\vld">
+      <UniqueIdentifier>{cb8767ea-d46a-4590-b1d6-cd15dd0e29f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\updater">
+      <UniqueIdentifier>{f0b64d9e-bce2-4e8e-97c2-64b4fe82330e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\ext">
+      <UniqueIdentifier>{a97ec4dd-e4eb-4845-b66b-09c3b279d2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\ext\pbc">
+      <UniqueIdentifier>{d6df1740-a29e-4b6c-b0b5-2f0a33f2f1f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\net">
+      <UniqueIdentifier>{1483e2b0-f707-4d9d-8d01-8acd67ddd9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\luabinding">
+      <UniqueIdentifier>{2eee58e2-1a33-43df-8adb-bfb7028f166e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\util">
+      <UniqueIdentifier>{e01b1f33-1e13-4468-829c-3090469cc9b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\video">
+      <UniqueIdentifier>{c146f650-f999-4c76-b73f-c6ab22bda07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\cfg">
+      <UniqueIdentifier>{5b12d41d-3de3-44fa-ba61-4679e6f712f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\sdk">
+      <UniqueIdentifier>{a4e7ad2e-29cd-4d21-9976-2dc75ed14c49}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectConfigDialog.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\AppDelegate.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\SimulatorConfig.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Registry.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\cfg\cfg_lua.cpp">
+      <Filter>sources\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\cfg\CfgData.cpp">
+      <Filter>sources\cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\alloc.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\array.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\bootstrap.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\context.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\decode.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\map.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\pattern.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\pbc-lua.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\proto.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\register.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\rmessage.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\stringpool.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\varint.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\ext\pbc\wmessage.c">
+      <Filter>sources\ext\pbc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\luabinding\censor_luabinding.cpp">
+      <Filter>sources\luabinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\luabinding\FileOperate_luabinding.cpp">
+      <Filter>sources\luabinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\luabinding\net_luabinding.cpp">
+      <Filter>sources\luabinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\luabinding\Updater_luabinding.cpp">
+      <Filter>sources\luabinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\luabinding\VideoLayer_luabinding.cpp">
+      <Filter>sources\luabinding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\net\net.cpp">
+      <Filter>sources\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\net\odsocket.cpp">
+      <Filter>sources\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\updater\Updater.cpp">
+      <Filter>sources\updater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\util\censor.cpp">
+      <Filter>sources\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\util\FileOperate.cpp">
+      <Filter>sources\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\util\log.cpp">
+      <Filter>sources\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\util\msgqueue.cpp">
+      <Filter>sources\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\codes\client\sources\video\VideoLayer.cpp">
+      <Filter>sources\video</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectConfigDialog.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\AppDelegate.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\SimulatorConfig.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\cfg\cfg_lua.h">
+      <Filter>sources\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\cfg\CfgData.h">
+      <Filter>sources\cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\alloc.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\array.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\bootstrap.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\context.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\descriptor.pbc.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\map.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\pattern.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\pbc.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\pbc-lua.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\proto.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\stringpool.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\ext\pbc\varint.h">
+      <Filter>sources\ext\pbc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\luabinding\censor_luabinding.h">
+      <Filter>sources\luabinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\luabinding\FileOperate_luabinding.h">
+      <Filter>sources\luabinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\luabinding\net_luabinding.h">
+      <Filter>sources\luabinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\luabinding\Updater_luabinding.h">
+      <Filter>sources\luabinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\luabinding\VideoLayer_luabinding.h">
+      <Filter>sources\luabinding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\net\buffer.h">
+      <Filter>sources\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\net\net.h">
+      <Filter>sources\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\net\odsocket.h">
+      <Filter>sources\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\net\security.h">
+      <Filter>sources\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\updater\Updater.h">
+      <Filter>sources\updater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\adler32.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\censor.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\FileOperate.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\lock.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\log.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\msgqueue.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\util\thread.h">
+      <Filter>sources\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\codes\client\sources\video\VideoLayer.h">
+      <Filter>sources\video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\vld\vld.h">
+      <Filter>sources\vld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\sources\vld\vldapi.h">
+      <Filter>sources\vld</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>win32</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

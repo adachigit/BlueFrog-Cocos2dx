@@ -1,0 +1,23 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: ATI Technologies Inc.
+	gl.renderer: AMD Radeon HD 8850M
+	gl.version: 4.2.12224 Compatibility Profile Context 12.105.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 32
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\bluefrog\zombie\quick-cocos2dx\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 60
+------------------------------------------------
+LOAD LUA FILE: D:/bluefrog/zombie/quick-cocos2dx/samples/cocos2dx_luatest/scripts/main.lua
+------------------------------------------------
+[0.8808] font count = 6
+[LUA ERROR] ASSERT FAILED ON LUA EXECUTE: Use runWithScene: instead to start the director

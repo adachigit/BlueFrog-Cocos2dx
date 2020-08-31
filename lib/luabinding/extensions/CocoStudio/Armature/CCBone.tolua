@@ -1,0 +1,160 @@
+/**
+ * @lua NA
+ */
+class CCBone : public CCNode
+{
+public:
+    /**
+     * Allocates and initializes a bone.
+     * @return A initialized bone which is marked as "autorelease".
+     */
+    static CCBone *create();
+    /**
+     * Allocates and initializes a bone.
+     *
+     * @param  name If name is not null, then set name to the bone's name
+     * @return A initialized bone which is marked as "autorelease".
+     */
+    static CCBone *create(const char *name);
+
+public:
+    /**
+     *  @js ctor
+     */
+    CCBone();
+    /**
+     *  @js NA
+     */
+    virtual ~CCBone(void);
+
+    /**
+     * Initializes an empty CCBone with nothing init.
+     */
+    virtual bool init();
+
+    /**
+     * Initializes a CCBone with the specified name
+     * @param name CCBone's name.
+     */
+    virtual bool init(const char *name);
+
+    /**
+     * Add display and use displayData to init the display.
+     * If index already have a display, then replace it.
+     * If index is current display index, then also change display to _index
+     *
+     * @param displayData it include the display information, like DisplayType.
+     *          If you want to create a sprite display, then create a CCSpriteDisplayData param
+     *
+     * @param index the index of the display you want to replace or add to
+     *          -1 : append display from back
+     */
+    void addDisplay(CCDisplayData *displayData, int index);
+
+    void addDisplay(CCNode *display, int index);
+
+    void removeDisplay(int index);
+
+    void changeDisplayByIndex(int index, bool force);
+
+    /**
+     * Add a child to this bone, and it will let this child call setParent(CCBone *parent) function to set self to it's parent
+     * @param 	child  the child you want to add
+     */
+    void addChildBone(CCBone *child);
+
+    /**
+     * Set parent bone.
+     * If parent is NUll, then also remove this bone from armature.
+     * It will not set the CCArmature, if you want to add the bone to a CCArmature, you should use CCArmature::addBone(CCBone *bone, const char* parentName).
+     *
+     * @param parent  the parent bone.
+     *          NULL : remove this bone from armature
+     */
+    void setParentBone(CCBone *parent);
+
+    /**
+     * Get parent bone
+     * @return parent bone
+     */
+    CCBone *getParentBone();
+
+    /**
+     * Remove itself from its parent.
+     * @param 	recursion    whether or not to remove childBone's display
+     */
+    void removeFromParent(bool recursion);
+
+    /**
+     * Removes a child CCBone
+     * @param 	bone   the bone you want to remove
+     */
+    void removeChildBone(CCBone *bone, bool recursion);
+
+    void update(float delta);
+
+    void updateDisplayedColor(const ccColor3B &parentColor);
+    void updateDisplayedOpacity(GLubyte parentOpacity);
+
+    void setColor(const ccColor3B &color);
+    void setOpacity(GLubyte opacity);
+
+    //! Update color to render display
+    void updateColor();
+
+    //! Update zorder
+    void updateZOrder();
+
+    virtual void setZOrder(int zOrder);
+
+    CCTween *getTween();
+
+    /*
+     * Whether or not the bone's transform property changed. if true, the bone will update the transform.
+     */
+    virtual inline void setTransformDirty(bool dirty);
+
+    virtual inline bool isTransformDirty();
+
+    virtual CCAffineTransform nodeToArmatureTransform();
+    virtual CCAffineTransform nodeToWorldTransform();
+
+    CCNode *getDisplayRenderNode();
+    DisplayType getDisplayRenderNodeType();
+
+    /*
+     * Get the ColliderBody list in this bone. The object in the CCArray is ColliderBody.
+     */
+    virtual CCArray *getColliderBodyList();
+
+    virtual void setColliderFilter(CCColliderFilter *filter);
+    virtual CCColliderFilter *getColliderFilter();
+public:
+    /*
+     *  The origin state of the CCBone. Display's state is effected by m_pBoneData, m_pNode, m_pTweenData
+     *  when call setData function, it will copy from the CCBoneData.
+     */
+	 void setBoneData(CCBoneData*);
+	 CCBoneData* getBoneData(void);
+
+    //! A weak reference to the CCArmature
+	void setArmature(CCArmature*);
+	CCArmature* getArmature(void);
+
+    //! A weak reference to the child CCArmature
+	void setChildArmature(CCArmature*);
+	CCArmature* getChildArmature();
+
+	CCDisplayManager* getDisplayManager();
+	void setDisplayManager(CCDisplayManager*);
+
+    /*
+     *	When CCArmature play an animation, if there is not a CCMovementBoneData of this bone in this CCMovementData, this bone will be hidden.
+     *	Set IgnoreMovementBoneData to true, then this bone will also be shown.
+     */
+	void setIgnoreMovementBoneData(bool);
+	bool getIgnoreMovementBoneData();
+
+	void setBlendType(CCBlendType);
+	CCBlendType getBlendType();
+};

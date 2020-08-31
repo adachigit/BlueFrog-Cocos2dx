@@ -1,0 +1,52 @@
+
+<dict>
+	cocos2d.x.version: 2.2.1
+	cocos2d.x.compiled_with_profiler: false
+	cocos2d.x.compiled_with_gl_state_cache: true
+	gl.vendor: ATI Technologies Inc.
+	gl.renderer: AMD Radeon HD 8850M
+	gl.version: 4.2.12224 Compatibility Profile Context 12.105.4.0
+	gl.max_texture_size: 16384
+	gl.max_texture_units: 32
+	gl.supports_PVRTC: false
+	gl.supports_NPOT: true
+	gl.supports_BGRA8888: false
+	gl.supports_discard_framebuffer: false
+	gl.supports_vertex_array_object: true
+</dict>
+lua_loadChunksFromZIP() - load zip file: D:\DevelopSDKs\quick-cocos2d-x\lib\framework_precompiled\framework_precompiled.zip
+lua_loadChunksFromZIP() - loaded chunks count: 54
+------------------------------------------------
+LOAD LUA FILE: F:/software/Develop/quick-cocos2d-x-feature-add_ccs_support/samples/dragonbones/scripts/main.lua
+------------------------------------------------
+[0.3185] [INFO] 
+[0.3188] [INFO] # DEBUG                        = 2
+[0.3195] [INFO] #
+[0.3203] [INFO] # device.platform              = windows
+[0.3207] [INFO] # device.model                 = unknown
+[0.3215] [INFO] # device.language              = cn
+[0.3220] [INFO] # device.writablePath          = F:\software\Develop\quick-cocos2d-x-feature-add_ccs_support\samples\dragonbones\
+[0.3236] [INFO] # device.cachePath             = F:\software\Develop\quick-cocos2d-x-feature-add_ccs_support\samples\dragonbones\
+[0.3251] [INFO] # device.directorySeparator    = \
+[0.3258] [INFO] # device.pathSeparator         = ;
+[0.3263] [INFO] #
+[0.3283] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_HEIGHT
+[0.3287] [INFO] # CONFIG_SCREEN_WIDTH          = 960.00
+[0.3293] [INFO] # CONFIG_SCREEN_HEIGHT         = 640.00
+[0.3301] [INFO] # display.widthInPixels        = 960.00
+[0.3306] [INFO] # display.heightInPixels       = 640.00
+[0.3312] [INFO] # display.contentScaleFactor   = 1.00
+[0.3319] [INFO] # display.width                = 960.00
+[0.3329] [INFO] # display.height               = 640.00
+[0.3339] [INFO] # display.cx                   = 480.00
+[0.3346] [INFO] # display.cy                   = 320.00
+[0.3351] [INFO] # display.left                 = 0.00
+[0.3357] [INFO] # display.right                = 960.00
+[0.3365] [INFO] # display.top                  = 640.00
+[0.3370] [INFO] # display.bottom               = 0.00
+[0.3376] [INFO] # display.c_left               = -480.00
+[0.3383] [INFO] # display.c_right              = 480.00
+[0.3397] [INFO] # display.c_top                = 320.00
+[0.3403] [INFO] # display.c_bottom             = -320.00
+[0.3408] [INFO] #
+[LUA ERROR] [string "F:/software/Develop/quick-cocos2d-x-feature-add_ccs_support/samples/dragonbones/scripts/scenes/MainScene.lua"]:14: attempt to index global 'CCArmatureDataManager' (a nil value)

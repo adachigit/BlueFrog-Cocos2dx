@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="api"/>
+	<buildpathentry kind="src" path="cc"/>
+	<buildpathentry kind="src" path="ccs"/>
+	<buildpathentry kind="src" path="cocos2dx"/>
+	<buildpathentry kind="src" path="platform"/>
+</buildpath>

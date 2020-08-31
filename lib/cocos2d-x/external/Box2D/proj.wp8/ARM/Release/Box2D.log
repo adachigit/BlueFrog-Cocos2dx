@@ -1,0 +1,54 @@
+﻿生成启动时间为 2015/9/11 16:52:27。
+     1>项目“D:\bluefrog\zombie\quick-cocos2dx\lib\cocos2d-x\external\Box2D\proj.wp8\Box2D.vcxproj”在节点 5 上(Build 个目标)。
+     1>Lib:
+         I:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\WPSDK\WP80\bin\x86_arm\Lib.exe /OUT:"D:\bluefrog\zombie\codes\client\proj.wp8\WP8\ARM\Release\Box2D\Box2D.lib" /NOLOGO /MACHINE:ARM ARM\Release\b2BroadPhase.obj
+         ARM\Release\b2CollideCircle.obj
+         ARM\Release\b2CollideEdge.obj
+         ARM\Release\b2CollidePolygon.obj
+         ARM\Release\b2Collision.obj
+         ARM\Release\b2Distance.obj
+         ARM\Release\b2DynamicTree.obj
+         ARM\Release\b2TimeOfImpact.obj
+         ARM\Release\b2ChainShape.obj
+         ARM\Release\b2CircleShape.obj
+         ARM\Release\b2EdgeShape.obj
+         ARM\Release\b2PolygonShape.obj
+         ARM\Release\b2BlockAllocator.obj
+         ARM\Release\b2Draw.obj
+         ARM\Release\b2Math.obj
+         ARM\Release\b2Settings.obj
+         ARM\Release\b2StackAllocator.obj
+         ARM\Release\b2Timer.obj
+         ARM\Release\b2Body.obj
+         ARM\Release\b2ContactManager.obj
+         ARM\Release\b2Fixture.obj
+         ARM\Release\b2Island.obj
+         ARM\Release\b2World.obj
+         ARM\Release\b2WorldCallbacks.obj
+         ARM\Release\b2ChainAndCircleContact.obj
+         ARM\Release\b2ChainAndPolygonContact.obj
+         ARM\Release\b2CircleContact.obj
+         ARM\Release\b2Contact.obj
+         ARM\Release\b2ContactSolver.obj
+         ARM\Release\b2EdgeAndCircleContact.obj
+         ARM\Release\b2EdgeAndPolygonContact.obj
+         ARM\Release\b2PolygonAndCircleContact.obj
+         ARM\Release\b2PolygonContact.obj
+         ARM\Release\b2DistanceJoint.obj
+         ARM\Release\b2FrictionJoint.obj
+         ARM\Release\b2GearJoint.obj
+         ARM\Release\b2Joint.obj
+         ARM\Release\b2MouseJoint.obj
+         ARM\Release\b2PrismaticJoint.obj
+         ARM\Release\b2PulleyJoint.obj
+         ARM\Release\b2RevoluteJoint.obj
+         ARM\Release\b2RopeJoint.obj
+         ARM\Release\b2WeldJoint.obj
+         ARM\Release\b2WheelJoint.obj
+         ARM\Release\b2Rope.obj
+         Box2D.vcxproj -> D:\bluefrog\zombie\codes\client\proj.wp8\WP8\ARM\Release\Box2D\Box2D.lib
+     1>已完成生成项目“D:\bluefrog\zombie\quick-cocos2dx\lib\cocos2d-x\external\Box2D\proj.wp8\Box2D.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.35
